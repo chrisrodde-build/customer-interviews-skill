@@ -29,16 +29,20 @@ Then write 3–5 research questions. They are what you need to learn, phrased ho
 
 ## Choosing the interview type
 
+Each type reconstructs the same switch from a different angle; `switch-model.md` shows which stretch of the timeline each one covers and which way the forces point.
+
 | Type | Talk to | Best for | Timing |
 |---|---|---|---|
-| Best-customer / switch | Recent, happy, high-value customers | Positioning, messaging, ICP, homepage, acquisition channels | Signed within the last ~3–12 months, so they remember choosing |
+| Best-customer / switch | Recent, happy, high-value customers | Positioning, messaging, ICP, homepage, acquisition channels | Switched about 3–6 months ago — see below |
 | Win-loss | Buyers who recently decided, either way | Competitive positioning, sales process, pricing perception | Within ~2 weeks of the decision (Clozd) |
 | Churn | Recently cancelled or downgraded | Retention, onboarding, segment strategy | As soon after cancellation as possible |
 | Non-switcher | Evaluated (trial, demo) and stayed with what they had | Anxiety and habit; why "no decision" wins | Within weeks of the abandoned evaluation |
 
-Many studies need two types. For a messaging project, best-customer plus a few losses gives you both why people buy and what stops them. Run them as separate guides; don't blend.
+Many studies need two types. For a messaging project, best-customer plus a few losses or non-switchers gives you both why people buy and what stops them. Run them as separate guides on the same timeline, so the coding lines up; don't blend them into one guide.
 
 ## Who to interview
+
+The principle across every type is Moesta's: **interview people who moved.** Someone who switched to you, switched away, or got close and stopped can reconstruct what made moving possible. Someone who never changed anything mostly speculates. And talk to them while the timeline is fresh — memory of the events fades within months, and what replaces it is a tidy story.
 
 ### Best-customer studies (Laudi & Suellentrop)
 
@@ -52,6 +56,10 @@ Interview the customers you want more of, not all customers. Their criteria, ada
 
 Pull the list from data first (tenure, plan, usage, expansion, support load), then interview from it. Interviewing your best customers means results are a strong hypothesis about who else to attract, not a census of everyone.
 
+**Timing — where the two methods meet.** Moesta wants switchers within roughly 30–90 days, while the timeline is vivid. Laudi & Suellentrop's criteria need enough tenure to show the customer is happy, retained and getting value. Recruit best customers who switched about **3–6 months ago**: recent enough to reconstruct the first thought and the decision, long enough to know it worked. Older best customers are still useful for the ongoing-use phase, but expect their early timeline to be reconstructed rather than remembered.
+
+**The bias to guard against.** Moesta warns against recruiting only happy customers, because the struggle is where the data is. Best-customer sampling is deliberate — you're studying the people you want more of — but if the decision involves who you're losing, add losses, churns or non-switchers.
+
 ### Win-loss (Clozd)
 
 - The person who was **closest to the decision** — often not the most senior name in the CRM
@@ -62,7 +70,14 @@ Pull the list from data first (tenure, plan, usage, expansion, support load), th
 ### Churn
 
 - The person who **made or pushed** the cancellation, not just whoever owns billing
+- As soon after cancelling as possible; the reversed timeline fades as fast as the forward one
 - Stratify by account size or age if churn reasons are expected to differ — they usually do
+
+### Non-switchers
+
+- People who started an evaluation — a trial, a demo, a pricing conversation — and stayed with what they had
+- Within weeks of the abandoned evaluation
+- Expect them to be harder to recruit than customers; they owe you nothing. A short, specific invite and a clear thank-you help
 
 ### Disqualifiers for any study
 
@@ -72,7 +87,7 @@ Pull the list from data first (tenure, plan, usage, expansion, support load), th
 
 ## How many
 
-- **10–12 interviews per segment** is the practical saturation point Laudi and Suellentrop cite. You'll stop hearing new forces and start hearing repeats.
+- **10–12 interviews per segment.** Laudi & Suellentrop and Moesta arrive at the same number independently. Moesta typically runs about 10 per round and no more than 12, and finds the pushes, pulls, anxieties and habits start repeating by around the seventh or eighth. You'll stop hearing new forces and start hearing repeats.
 - Count **per segment**. Twelve interviews across four segments is three per segment — anecdotes, not patterns.
 - Win-loss programs aim for a running sample across the quarter, not a one-off batch. A few per month beats a big batch once a year.
 - If you have only 4–6, run them, and label the findings as directional.
@@ -157,13 +172,30 @@ better for others in your situation. Would you give me 20 minutes?
 [Incentive].
 ```
 
+**Non-switcher invite**
+```
+Subject: How your look at [category] went
+
+Hi [Name],
+
+A little while ago you took a look at [product]. Whatever you ended
+up doing — including sticking with what you had — I'd value 20
+minutes to hear how that went: what got you looking, and what
+mattered when you decided.
+
+No sales pitch, and nothing will be attributed to you by name.
+[Incentive].
+
+[Times / link]
+```
+
 ## Incentives, scheduling, consent
 
 - **Incentive:** match to the participant's world. Gift cards or account credit for customers; for nonprofits or public-sector buyers, a donation in their name is often more welcome than cash and avoids gift-policy problems. Win-loss buyers often participate without one; offer anyway.
 - **Length:** 30 minutes for win-loss and churn (Clozd keeps win-loss to 30 minutes or less to avoid burdening buyers); 30–45 for best-customer.
 - **Scheduling:** send a calendar invite with the video link and a one-line purpose. Remind the day before.
 - **Consent:** state at the start that you're recording, why, who will see it, and how quotes will be used. Get a yes on the recording.
-- **Who interviews:** someone trained and, for win-loss and churn, neutral. Two people is ideal — one asks, one notes — but the note-taker stays silent until the end.
+- **Who interviews:** someone trained and, for win-loss and churn, neutral. Two people is ideal — Moesta and Spiek's switch interview uses pairs: one leads, the other tracks the timeline and the forces and holds questions until the end.
 
 ## Common mistakes
 

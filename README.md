@@ -1,8 +1,24 @@
 # Customer Interviews — a Claude skill
 
-A B2B customer interview skill for marketers. It plans, runs, scores and synthesizes best-customer (switch), win-loss and churn interviews, built on the published methods of four practitioners who each cover the others' blind spots. It turns a decision into the right participants, the participants into real stories, and the stories into findings that change something.
+A B2B customer interview skill for marketers. It plans, runs, scores and synthesizes best-customer (switch), win-loss, churn and non-switcher interviews. It turns a decision into the right participants, the participants into real stories, and the stories into findings that change something.
 
 **Most interview programs fail in one of three places:** they talk to the wrong people, they ask questions people can't answer truthfully, or the findings never become a decision. The sequence exists to prevent all three.
+
+## One model, five roles
+
+Every interview reconstructs the same thing: a **switch**, as Bob Moesta and Chris Spiek define it — a timeline of concrete events (first thought, passive looking, active looking, deciding, onboarding, ongoing use) moved by four forces: push and pull driving change, anxiety and habit resisting it. Each interview type is that model from a different angle, and every guide, rubric and report is built on it.
+
+The other practitioners each do one job inside the model:
+
+| Practitioner | Role |
+|---|---|
+| Bob Moesta & Chris Spiek | The model: timeline, forces, progress, pathways |
+| Georgiana Laudi & Claire Suellentrop | Who to study, and turning findings into marketing |
+| Teresa Torres | How to ask: story-based interviewing, the interview snapshot |
+| Rob Fitzpatrick | Question hygiene: no compliments, hypotheticals or pitching |
+| Clozd | Win-loss operations: timing, the buying committee, comparability |
+
+Where they disagree — on asking "why," on who to interview, on recency, on segmentation — the skill names the disagreement and says how it settles it.
 
 | Step | Question | Output |
 |---|---|---|
@@ -18,14 +34,15 @@ It includes four rubrics with anchored 1–4 scales: participant fit, guide qual
 ## What's in here
 
 ```
-SKILL.md       the sequence, the guardrails, the output templates
-references/    study design, interview guides and question banks, rubrics,
-               synthesis, and the practitioners' methods in depth
+SKILL.md       the model, the sequence, the rules, the output templates
+references/    switch-model.md (read first), study design, interview guides
+               and question banks, rubrics, synthesis, and the
+               practitioners' methods in depth
 ```
 
 ## Works with Positioning & Messaging
 
-This skill is the evidence engine for the [Positioning & Messaging skill](https://github.com/chrisrodde-build/positioning-and-messaging-skill). It applies Bob Moesta's Four Forces as its analysis lens (documented there in `references/moesta-demand.md`) and hands off a demand brief in the format that skill expects. Each works on its own; together they run from interviews to a messaging framework.
+This skill is the evidence engine for the [Positioning & Messaging skill](https://github.com/chrisrodde-build/positioning-and-messaging-skill). Both use Moesta's switch model, and this skill hands off a demand brief in the format that one expects. Each works on its own; together they run from interviews to a messaging framework.
 
 ## How to get it
 
@@ -44,11 +61,11 @@ You don't invoke it by keyword. Just describe the work: *"Help me plan churn int
 
 This skill synthesizes publicly published methods. It is **not affiliated with, endorsed by, or reviewed by** any of the practitioners or companies named; any errors in the summaries are the skill's, not theirs. Go to the sources:
 
+- **Bob Moesta & Chris Spiek** — *Demand-Side Sales 101* and the switch interview — [jobstobedone.org](https://jobstobedone.org/)
 - **Georgiana Laudi & Claire Suellentrop** — *Forget the Funnel* and the Forget the Funnel podcast — [forgetthefunnel.com](https://www.forgetthefunnel.com/), [customerled.com](https://www.customerled.com/)
 - **Teresa Torres** — *Continuous Discovery Habits* and the Story-Based Customer Interviews course — [producttalk.org](https://www.producttalk.org/)
 - **Rob Fitzpatrick** — *The Mom Test* — [momtestbook.com](https://www.momtestbook.com/)
 - **Clozd** — the Win-Loss 101 course and question framework — [clozd.com](https://www.clozd.com/)
-- **Bob Moesta & Chris Spiek** — the Four Forces — [jobstobedone.org](https://jobstobedone.org/)
 
 The sequencing, the rubrics and the output templates are how the method has been assembled here.
 
